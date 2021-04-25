@@ -1,0 +1,62 @@
+baseurl = "https://example.org/"
+title = "CHOI."
+theme = "hugo-creative-portfolio-theme"
+languageCode = "en-us"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+
+[params]
+  # Style options: default (pink), blue, green, pink, red, sea, violet
+  # Use custom.css for your custom styling
+  style = "green"
+  description = "개발자의 취미생활 by CHOI."
+  copyright = "&copy;2021 CHOI."
+  sidebarAbout = [
+    "개발자의 취미생활.",
+    "MY FAVORITE DIGITAL SPACE. <br> Based in Seoul. "
+  ]
+  # Contact page
+     # Since this template is static, the contact form uses www.formspree.io as a
+     # proxy. The form makes a POST request to their servers to send the actual
+     # email. Visitors can send up to a 1000 emails each month for free.
+     #
+     # What you need to do for the setup?
+     #
+     # - set your email address under 'email' below
+     # - upload the generated site to your server
+     # - send a dummy email yourself to confirm your account
+     # - click the confirm link in the email from www.formspree.io
+     # - you're done. Happy mailing!
+  email = "jisunn0130@gmail.com"
+
+    # Optional Matomo analytics (formerly piwik)
+      # [params.analytics.matomo]
+      #  URL = "https://stats.example.com"
+      #  ID = "42"
+      #  # Track all subdomains with "*.example.com" (Optional)
+      #  domain = "www.example.com"
+      #  # Optional integrity check hash
+      #  hash = ""
+
+  # Nav links in the side bar
+  [[params.navlinks]]
+  name = "retrospective."
+  url = "retrospective/"
+
+  [[params.navlinks]]
+  name = "films."
+  url = "film/"
+
+  [[params.navlinks]]
+  name = "about."
+  url = "about/"
+  home = true
+
+
+  [params.social]
+  email         = "jisunn0130@gmail.com"
+  linkedin      = "https://www.linkedin.com/in/%EC%A7%80%EC%84%A0-%EC%B5%9C-5a8666a6/"
+  instagram     = "https://www.instagram.com/jisunnchoi/"
+  github        = "https://github.com/jisun-choi"
