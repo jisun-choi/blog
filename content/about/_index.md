@@ -12,4 +12,4 @@ date= 2021-04-24T13:12:48+09:00
 
 ![This is me][1]
 
-[1]: /img/fr.jpg
+[1]: img/fr.jpg
