@@ -13,3 +13,5 @@ date= 2021-04-24T13:12:48+09:00
 ![I LOVE WATCHING FRIENDS.][1]
 
 [1]: https://jisun-choi.github.io/choi/img/fr.jpg
+
+©2021 CHOI.
