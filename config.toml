@@ -55,7 +55,11 @@ googleAnalytics = ""
   name = "films."
   url = "film/"
 
-    [[params.navlinks]]
+  [[params.navlinks]]
+  name = "books."
+  url = "books/"
+
+  [[params.navlinks]]
   name = "investments."
   url = "investmentjournal/"
 
